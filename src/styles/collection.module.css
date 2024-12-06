@@ -1,0 +1,83 @@
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .cardContent {
+    padding: 15px;
+  }
+  
+  .productTitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .productDescription {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 10px;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .productPrice {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+  }
+  
+  .addToCartButton {
+    background-color:#0c4040 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addToCartButton:hover {
+    background-color:#894399;
+  }
+  .button{
+    background-color:  #894399;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 2px;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font:sans-serif;
+    
+  }
+  .button:hover{
+    background-color: #0c4040;
+  }

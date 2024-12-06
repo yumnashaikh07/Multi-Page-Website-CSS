@@ -1,0 +1,125 @@
+.hero{
+    position: relative;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  
+  .overlay{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    right: 20%;
+    left: 70%;
+    background-color: rgb(232, 232, 181);
+    padding: 10px;
+    margin: 20px  auto;
+    text-align: center;
+    width: 500px;
+    height: 230px;
+    transform: translate(-50%, -50%); 
+  }
+  .herotitle{
+    font-size:xx-large; 
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  .description{
+  
+    font-size: larger;
+    margin-top: 30px;
+    margin-bottom: 3%;
+  }
+  .span{
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: large;
+  }
+  .ctabutton{
+    background-color:  #00403c;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+  }
+  .ctabutton:hover{
+    background-color: #076c4a;
+  }
+  .three{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-right: 9px;
+    font-size: 20px;
+  }
+  .itemsthree{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .h1three{
+    display: flex;
+   justify-content: center;
+   font-size: 70px;
+   font-weight: 700;
+   font-family:sans-serif;
+   margin-bottom: 30px;
+   color:#0c4040;
+  }
+  
+  .three3{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-right: 9px;
+    margin-top: 7px;
+    font-size: 20px;
+  
+  }
+  .h1three3{
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+   font-weight: 700;
+   font-family:sans-serif;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   color:#0c4040;
+  }
+  .itemthree3{
+   margin-top: 60px;
+  
+  }
+  .itemthree1{
+  margin-top: 60px;
+  }
+  
+  
+  @media(max-width :768px){
+    .overlay{
+      width: 200px;
+      height: 300px;
+    }
+    .herotitle{
+      font-size:x-large; }
+    .three{
+      grid-template-columns:repeat(1, 1fr); 
+      margin: auto; 
+    }
+    .three3{
+      grid-template-columns:repeat(1, 1fr); 
+      margin: auto;
+    }
+    .h1three3{
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+  }

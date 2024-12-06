@@ -1,0 +1,63 @@
+
+.headerbg{
+    background-color: #894399;
+    display: flex; 
+    justify-content: space-between;             
+    align-items: center;                        
+    height: 100px;  
+  }
+  .brandname{
+    margin-left: 130px;
+    color:#0c4040;
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+
+  }
+ 
+  .logodiv{
+    display: flex;   
+    justify-content: flex-start;
+    border-radius: 50%;
+    margin-left :15px;
+    margin-right: 30px;
+    width: 90px;
+    height: 90px;
+
+  }
+  
+.ul{
+    margin-right: 20px;
+    column-gap: 40px;
+    display:flex;
+    font-size: larger;
+    list-style-type: none;
+  
+  }
+  .lihover {
+    color: black; 
+      text-decoration: none; 
+      transition: color 0.3s;
+  }
+  
+  .lihover:hover {
+      color: yellow; 
+      text-decoration: underline
+  }
+  @media (max-width: 768px) {
+    .ul{
+      display: flex;
+      flex-direction: column;
+      font-size:medium;
+    }
+    .brandname{
+      margin:auto;
+      font-weight:600;
+    font-size:large;
+    }
+    .logodiv{
+      width: 40px;
+      height: 40px;
+    }
+  }
