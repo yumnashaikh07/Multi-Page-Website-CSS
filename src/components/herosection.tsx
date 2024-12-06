@@ -30,39 +30,41 @@ export default function Herosection() {
       <section>
         <h1 className={styles.h1three}>Categories</h1>
         <div className={styles.three}>
-          <div className={styles.itemthree}>
-            <Image src={"/images/tape.webp"} width={400} height={400} alt="" />
+          <div>
+            <Image src={"/images/tape.webp"} width={400} height={400} alt=""  className={styles.itemthree3} />
             <h3>Washi Tapes</h3>
           </div>
-          <div className={styles.itemthree}>
-            <Image src={"/images/pen.jpg"} width={400} height={400} alt="" />
+          <div >
+            <Image src={"/images/pen.jpg"} width={400} height={400} alt="" className={styles.itemthree3} />
             <h3>Pens</h3>
           </div>
-          <div className={styles.itemthree}>
-            <Image src={"/images/box.webp"} width={400} height={400} alt="" />
+          <div>
+            <Image src={"/images/box.webp"} width={400} height={400} alt=""  className={styles.itemthree3} />
             <h3>Pencil Box</h3>
           </div>
         </div>
         <div className={styles.three3}>
-          <div className={styles.itemthree}>
-            <Image src={"/images/paper.webp"} width={400} height={400} alt="" />
+          <div >
+            <Image src={"/images/paper.webp"} width={400} height={400} alt="" className={styles.itemthree3} />
             <h3>Paper Cutter</h3>
           </div>
-          <div className={styles.itemthree}>
+          <div >
             <Image
               src={"/images/highlight.webp"}
               width={400}
               height={400}
               alt=""
+              className={styles.itemthree3}
             />
             <h3>Highlighter</h3>
           </div>
-          <div className={styles.itemthree}>
+          <div >
             <Image
               src={"/images/stickynote.webp"}
               width={400}
               height={400}
               alt=""
+              className={styles.itemthree3}
             />
             <h3>StickyNotes</h3>
           </div>
@@ -71,14 +73,14 @@ export default function Herosection() {
       <section>
         <h1 className={styles.h1three3}>OUR BEST SELLING</h1>
         <div className={styles.three3}>
-          <div className={styles.itemthree1}>
-            <Image src={"/images/key.jpg"} width={400} height={400} alt="" />
+          <div >
+            <Image src={"/images/key.jpg"} width={400} height={400} alt="" className={styles.itemthree3}/>
           </div>
-          <div className={styles.itemthree}>
-            <Image src={"/images/key2.jpg"} width={400} height={400} alt="" />
+          <div >
+            <Image src={"/images/key2.jpg"} width={400} height={400} alt="" className={styles.itemthree3} />
           </div>
-          <div className={styles.itemthree3}>
-            <Image src={"/images/box.webp"} width={400} height={400} alt="" />
+          <div>
+            <Image src={"/images/box.webp"} width={400} height={400} alt=""  className={styles.itemthree3}/>
           </div>
         </div>
       </section>
