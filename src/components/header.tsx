@@ -7,7 +7,7 @@ export default function Header(){
             <section className={styles.headerbg}>
                 <div>
                     <Image 
-                    src={"/images/Tje DIY Store.png"}
+                    src={"/images/The DIY Store.png"}
                     width={90}
                     height={90}
                     alt="Logo"
